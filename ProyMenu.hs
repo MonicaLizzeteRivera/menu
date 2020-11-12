@@ -105,7 +105,7 @@ resta = do
     putStrLn (":" ++ show (read (n1) - read (n2)))
     funcionMenu
 --Multiplicar
-multiplicar = do
+multiplicador = do
     putStrLn ("Primer numero")
     n1 <- getLine
     putStrLn ("Segundo numero")
