@@ -83,10 +83,10 @@ calculadora = do
     putStrLn("4.- Dividir")
     opcion <- getLine
     case opcion of 
-        "1" -> suma 
-        "2" -> resta
-        "3" -> multiplicar
-        "4" -> dividir 
+        1 -> suma 
+        2 -> resta
+        3 -> multiplicar
+        4 -> divdir 
     
 --Suma 
 suma = do
